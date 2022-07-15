@@ -9,9 +9,6 @@ export default {
   css: ['@/assets/css/main.css'],
   buildModules: ['@nuxt/postcss8', '@layer0/nuxt/module'],
   build: {
-    babel: {
-      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
-    },
     postcss: {
       plugins: {
         tailwindcss: {},

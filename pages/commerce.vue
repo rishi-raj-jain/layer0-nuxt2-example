@@ -43,7 +43,7 @@ export default {
   methods: {
     getImage: (url) => relativizeURL(url),
   },
-  async asyncData({ req, params, redirect }) {
+  async asyncData({ req, redirect }) {
     let link = undefined
     let data = undefined
     // If in browser (i.e. on client side)
